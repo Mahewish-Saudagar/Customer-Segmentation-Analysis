@@ -16,21 +16,26 @@ The objective of this project is to analyse customer purchasing behaviour, ident
 - K-Means Clustering
 
 ## Project Workflow
-
+```text
 Dataset
-↓
-Data Preparation & Analysis using Python / Jupyter Notebook
-↓
+   ↓
+Data Preparation & Analysis
+(Python / Jupyter Notebook)
+   ↓
+RFM Table Creation
+   ↓
 RFM Analysis
-↓
+   ↓
+Frequency Evaluation
+   ↓
 K-Means Clustering
-↓
+   ↓
 Customer Segmentation
-↓
+   ↓
 PostgreSQL
-↓
+   ↓
 Power BI Dashboard
-↓
+   ↓
 Business Insights
 
 ## RFM Analysis & Customer Segmentation
@@ -75,7 +80,7 @@ The final clustering was therefore based on:
 - Monthly revenue was highest in January and declined until April–May, followed by fluctuations during the remaining months.
 
 ## Project Structure
-
+---text
 Customer-Segmentation-Analysis/
 │
 ├── Dataset/
@@ -96,6 +101,7 @@ Customer-Segmentation-Analysis/
 │   └── customer_segmentation_analysis.pbix
 │
 ├── SQL/
+│   └── customer_segmentation_analysis.sql
 │
 ├── .gitignore
 └── Readme.md
@@ -106,8 +112,7 @@ Customer-Segmentation-Analysis/
 - Insights — Business insights and suggestions
 - Notebook — Data preparation, RFM analysis and K-Means clustering
 - PowerBI — Power BI dashboard file
-- SQL — SQL-related project queries
-
+- SQL — SQL queries covering customer analysis
 ##Outcome
 
 This project demonstrates an end-to-end data analysis workflow, from data preparation and customer segmentation to database integration, dashboard development, and business insight generation.
