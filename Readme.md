@@ -37,7 +37,8 @@ PostgreSQL
 Power BI Dashboard
    ↓
 Business Insights
----
+```
+
 
 ## RFM Analysis & Customer Segmentation
 
@@ -81,7 +82,7 @@ The final clustering was therefore based on:
 - Monthly revenue was highest in January and declined until April–May, followed by fluctuations during the remaining months.
 
 ## Project Structure
----text
+```text
 Customer-Segmentation-Analysis/
 │
 ├── Dataset/
@@ -106,7 +107,7 @@ Customer-Segmentation-Analysis/
 │
 ├── .gitignore
 └── Readme.md
----
+```
 
 ## Project Files
 - Dataset — Dataset used for the analysis
