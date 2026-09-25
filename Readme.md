@@ -37,6 +37,7 @@ PostgreSQL
 Power BI Dashboard
    ↓
 Business Insights
+---
 
 ## RFM Analysis & Customer Segmentation
 
@@ -105,6 +106,7 @@ Customer-Segmentation-Analysis/
 │
 ├── .gitignore
 └── Readme.md
+---
 
 ## Project Files
 - Dataset — Dataset used for the analysis
